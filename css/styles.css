@@ -1,0 +1,20 @@
+.card {
+    text-align: justify;
+    min-width: 20rem;
+    margin-right: 30px;
+    margin-top: 40px;
+    border-top: none;
+    border-left: none;
+    box-shadow: 11px 11px 19px -6px rgba(0,0,0,0.57);
+    border-bottom-right-radius: 5px !important;
+}
+
+.sm-container {
+    margin: 2rem;
+}
+
+.img-main:hover {
+    transform: scale(1.2);
+    z-index: 10;
+    transition: 0.5s ease;
+}
